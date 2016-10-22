@@ -736,9 +736,9 @@ class WPGeo {
 		$wp_geo_options = get_option( 'wp_geo_options' );
 		
 		// Check if domain is correct
-		if ( ! wpgeo_check_domain() ) {
-			return false;
-		}
+		// if ( ! wpgeo_check_domain() ) {
+		// 	return false;
+		// }
 		
 		// Widget active
 		// if ( is_active_widget( array( 'WPGeo_Widget', 'map_widget' ) ) ) {
